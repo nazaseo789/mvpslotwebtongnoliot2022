@@ -5,7 +5,6 @@ description: "อยากจะสมัครบาคาร่า ที่�
 hero: "https://i.postimg.cc/Qtdb9Phc/01.jpg"
 tags: ["go"]
 layout: "../../layouts/BlogPostLayout.astro"
-[อยากลองก็จัดเลย](https://mvpjet.netlify.app/posts/registerpg/)
 ---
 
 
