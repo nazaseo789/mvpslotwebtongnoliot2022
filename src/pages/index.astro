@@ -4,8 +4,6 @@ import Nav from '../components/Nav.astro';
 import HomeHeader from '../components/HomeHeader.astro';
 import Card from '../components/Card.astro';
 import Footer from '../components/Footer/Footer.astro'
-import Md from './posts/main-post.md'
-
 interface MarkdownFrontmatter {
   date: number;
 }
@@ -58,7 +56,7 @@ const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).valu
   <main class="py-12 lg:py-20">
     <article class="max-w-6xl mx-auto px-3">
       <HomeHeader title={title} description={description} />
-      <Md/>
+      
       <p>
         **สมัครสล็อต pg**  คือ  สมัครเล่นเกมสล็อตที่ผลิตโดยค่ายเกมส์ PGเปิดให้บริการเล่นผ่านทางเว็บไซต์ผู้เป็นเจ้าของเว็บตรง 
          ข้อดีคือคนแทงมั่นใจได้ว่า 
@@ -68,8 +66,8 @@ const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).valu
         
         <font size= "5">[<span style="color:orange">สมัครผ่านระบบอัตโนมัติคลิกที่นี่</span>](https://nazavip.com/26174/t41626o2r59456244323y2m2l464p4)😍😍</font><br /> 
         
-        <font size= "5">[<span style="color:orange">สมัครรับโปรโมชั่นคลิกที่นี</span>่](https://nazavip.com/26174/t41626o2r59456244323y2m2l464p4)😍😍</font> <br />
-        <font size= "5"></font><a href="https://nazavip.com/26174/t41626o2r59456244323y2m2l464p4">[<span style="color:orange"></span>สมัครรับโปรโมชั่นคลิกที่นี😍😍</a>
+        <font size= "5">[<span style="color:orange"><a href="สมัครรับโปรโมชั่นคลิกที่นี</span>่]😍😍</font> 
+        <a href="https://nazavip.com/26174/t41626o2r59456244323y2m2l464p4">
       </p> 
       <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8" data-test="articles-section">
         {sortedPosts.map(p => <div class="col-span-1">
