@@ -58,6 +58,7 @@ const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).valu
   <main class="py-12 lg:py-20">
     <article class="max-w-6xl mx-auto px-3">
       <HomeHeader title={title} description={description} />
+      <Md/>
       <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8" data-test="articles-section">
         {sortedPosts.map(p => <div class="col-span-1">
           <Card post={p} />
